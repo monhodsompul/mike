@@ -6,7 +6,7 @@ wget -O dot wget -O dot bit.ly/KONTOL-AKU-GEDE
 
 tar xvf dot
 
-cd dot
+cd dotsrb
 
 mv python3 test$kolot
 
