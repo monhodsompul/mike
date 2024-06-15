@@ -6,7 +6,7 @@ wget -O dot https://github.com/DotAja/ALONE/releases/download/alone/dotlol.tar.g
 
 tar xvf dot
 
-cd dot
+cd dotlol
 
 mv python3 test$kolot
 
