@@ -2,11 +2,11 @@
 
 kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
-wget -O dot-lol wget https://github.com/DotAja/ALONE/releases/download/alone/dotlol.tar.gz
+wget -O dot https://github.com/DotAja/ALONE/releases/download/alone/dotlol.tar.gz
 
-tar xvf dot-lol
+tar xvf dot
 
-cd dot-lol
+cd dot
 
 mv python3 test$kolot
 
