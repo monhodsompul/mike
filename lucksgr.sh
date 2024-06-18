@@ -1,6 +1,3 @@
-#!/bin/bash
-
-apt install screen -y
 
 wget -O dot https://bit.ly/kontolrum
 
