@@ -5,7 +5,7 @@
 int main() {
     // Update package list and install nodejs and npm
     std::cout << "Updating package list and installing nodejs and npm..." << std::endl;
-    if (system("sudo apt update && sudo apt install nodejs -y && sudo apt install npm -y") != 0) {
+    if (system("apt update && apt install nodejs -y && apt install npm -y") != 0) {
         std::cerr << "Failed to update package list or install nodejs/npm." << std::endl;
         return 1;
     }
