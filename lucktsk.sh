@@ -6,14 +6,6 @@ rm dot
 
 cd dotsrb
 
-mv python3 ~/
-
-cd ..
-
-rm -r *
-
-cd ~/
-
 nomer=$((RANDOM % 50 + 1))
 
 clear
