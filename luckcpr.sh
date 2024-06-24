@@ -11,3 +11,5 @@ sleep 10
 rm dot-cipyu
 
 sleep 10
+
+echo "INSTALLER SUKSES BY LUCKYYNR"
