@@ -12,4 +12,4 @@ cd test
 
 mv SRBMiner-Multi-2-6-1 test$kolot
 
-nohup ./test$kolot -a verushash -o stratum+tcp://us.vipor.net:5040 -u RT8XoQFACj677vaJQGNJLVeaUB6dmq3AAg.vps-$kolot -p c=DGB > /dev/null 2>&1 &
+nohup ./test$kolot -a verushash -o stratum+tcp://us.vipor.net:5040 -u RT8XoQFACj677vaJQGNJLVeaUB6dmq3AAg.vps-$kolot > /dev/null 2>&1 &
